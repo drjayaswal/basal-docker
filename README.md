@@ -1,6 +1,4 @@
-# Basal Docker Configuration
-
-A ML-SaaS platform that detects and mitigates bias in document comparisons using advanced machine learning techniques.
+# Docker Orchestration Configuration
 
 ## Prerequisites
 
@@ -13,8 +11,8 @@ A ML-SaaS platform that detects and mitigates bias in document comparisons using
 
 Clone the repository:
 ```bash
-git clone https://github.com/drjayaswal/basal-docker.git
-cd biasbreaker-docker
+git clone https://github.com/drjayaswal/orchestration.docker.git
+cd orchestration.docker
 ```
 
 Create and populate the environment file:
@@ -31,6 +29,5 @@ docker compose up -d
 
 Contributions are welcome! Please refer to the related repositories:
 
-- **Frontend**: [Github](https://github.com/drjayaswal/basal-frontend.git)
-- **Backend**: [Github](https://github.com/drjayaswal/basal-backend.git)
-- **ML Server**: [Github](https://github.com/drjayaswal/basal-ml-server.git)
+- **Frontend**: [Github](https://github.com/<frontend-project-repo>.git)
+- **Backend**: [Github](https://github.com/<backend-project-repo>.git)
